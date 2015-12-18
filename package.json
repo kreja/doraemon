@@ -18,11 +18,11 @@
     "style-loader": "~0.12.4",
     "url-loader": "~0.5.6",
     "webpack": "~1.12.2",
-    "webpack-dev-server": "~1.12.0"
+    "webpack-dev-server": "CodeYellowBV/webpack-dev-server#98fd2f45b4a81"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config webpack-dev.config.js --progress",
+    "dev": "webpack-dev-server --config webpack-dev.config.js --progress --open",
     "build": "webpack --config webpack-production.config.js --profile --progress"
   }
 }
